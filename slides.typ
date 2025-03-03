@@ -140,7 +140,7 @@
 
 #let title-slide(
   text-color: white,
-  text-size: 40pt,
+  text-size: 36pt,
   body,
 ) = (
   context {
@@ -256,7 +256,7 @@
 
     set enum(numbering: (it => context text(fill: black)[*#it.*]))
 
-    set text(size: 18pt)
+    set text(size: 16pt)
     set par(justify: true, leading:1em)
     set align(start + top)
 
@@ -292,7 +292,7 @@
 
     set enum(numbering: (it => context text(fill: black)[*#it.*]))
 
-    set text(size: 18pt)
+    set text(size: 16pt)
     set par(justify: true, leading: 1em)
     set align(start + top)
     body

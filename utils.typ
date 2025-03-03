@@ -57,7 +57,7 @@
   if title != none {
     block(
       width: 100%,
-      height: 2cm,
+      height: 2.5cm,
       fill: white, // Transparent background for the title block (no fill, just text)
       inset: 10pt,
       text(rgb("980000"), weight: "bold", size: 24pt, align(center)[#title]) // Centered red title
