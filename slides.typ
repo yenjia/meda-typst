@@ -31,6 +31,7 @@
     }
   )
 
+  set footnote.entry(indent: 0em)
   show footnote.entry: set text(size: 10pt)
 
   show footnote: it => (
