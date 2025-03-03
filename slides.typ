@@ -257,7 +257,7 @@
     set enum(numbering: (it => context text(fill: black)[*#it.*]))
 
     set text(size: 18pt)
-    set par(justify: true)
+    set par(justify: true, leading:1em)
     set align(start + top)
 
     v(0cm) // avoids header breaking if body is empty
@@ -293,7 +293,7 @@
     set enum(numbering: (it => context text(fill: black)[*#it.*]))
 
     set text(size: 18pt)
-    set par(justify: true)
+    set par(justify: true, leading: 1em)
     set align(start + top)
     body
   }
@@ -322,7 +322,7 @@
       ),
     )
     set text(size: 14pt)
-    set par(justify: true)
+    set par(justify: true, leading: 1em)
     set align(start + top)
 
     set bibliography(
