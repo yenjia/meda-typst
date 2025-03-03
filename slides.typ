@@ -1,5 +1,6 @@
 #import "utils.typ": *
 
+#let font = "Arial"
 #let theme-color = state("theme-color", none)
 #let sections = state("sections", ())
 #let darkred = rgb("980000")
@@ -13,7 +14,7 @@
 ) = {
   theme-color.update(_theme-colors.at(theme))
 
-  set text(font: "Arial")
+  set text(font: font)
 
   set page(paper: "presentation-" + ratio, fill: white, margin: (top: 1in, bottom: 0.3in))
 
@@ -175,7 +176,7 @@
       weight: "semibold",
       size: text-size,
       fill: darkblue,
-      font: "Arial",
+      font: font,
     )
 
     // Position text in the middle of the upper half
@@ -211,7 +212,7 @@
       weight: "semibold",
       size: text-size,
       fill: text-color,
-      font: "Arial",
+      font: font,
     )
 
     set align(center + horizon)
