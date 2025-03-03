@@ -1,0 +1,14 @@
+[package]
+name = "meda-slide"
+version = "0.1"
+entrypoint = "meda_template.typ"
+compiler = "0.13.0"
+authors = ["Yenjia Chen <https://github.com/yenjia>"]
+description = "MeDA Lab slides."
+repository = "https://github.com/yenjia/meda-typst"
+keywords = ["slides", "presentation"]
+categories = ["presentation", "layout", "components"]
+
+[template]
+path = "template"
+entrypoint = "main.typ"
