@@ -17,6 +17,10 @@ This repository contains a [Typst](https://typst.app/) template for creating sli
     ```bash
     cp -r meda-typst/* $HOME/.local/share/typst/packages/local/meda-typst/0.1.0/
     ```
+    and then import the template in your `.typ` file:
+    ```typst
+    #import("@local/meda-typst/0.1.0/": *)
+    ```
 ### How to Use
 There are 6 kinds of slides in the template (See `main.typ` for more details):
 1. Front slide
